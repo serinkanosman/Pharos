@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/packages
+/node_modules
+
+# Test results
+/TestResult/
+/results/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Other
+*.dbmdl
+*.jfm
+*_i.c
+*_p.c
+*.ncb
+*.pch
+*.tmp
+*.log
+*.tlog
+*.bak
+*.cache
+*.pdb
+*.phar
+*.zip
+*.rar
+*.7z
