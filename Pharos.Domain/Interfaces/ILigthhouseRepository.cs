@@ -2,7 +2,7 @@ using Pharos.Domain.Entities;
 
 namespace Pharos.Domain.Common;
 
-public interface LighthouseRepository
+public interface ILighthouseRepository
 {
     Task AddAsync(Lighthouse lighthouse);
     Task UpdateAsync(Lighthouse lighthouse);

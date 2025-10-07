@@ -7,9 +7,9 @@ using Pharos.Domain.ValueObjects;
 
 namespace Pharos.Application.Features.LightHouse;
 
-public class CreateLighthouseHandler(LighthouseRepository repository, ICountryRegistry countryRegistry)
+public class CreateLighthouseHandler(ILighthouseRepository repository, ICountryRegistry countryRegistry)
 {
-    private readonly LighthouseRepository _repository = repository;
+    private readonly ILighthouseRepository _repository = repository;
     private readonly ICountryRegistry _countryRegistry = countryRegistry;
 
 
