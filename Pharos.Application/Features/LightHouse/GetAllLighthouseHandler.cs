@@ -5,9 +5,9 @@ using Pharos.Domain.Common;
 
 namespace Pharos.Application.Features.LightHouse;
 
-public class GetAllLighthousesHandler(LighthouseRepository repository)
+public class GetAllLighthouseHandler(ILighthouseRepository repository)
 {
-    private readonly LighthouseRepository _repository = repository;
+    private readonly ILighthouseRepository _repository = repository;
 
     public async Task<Result<IEnumerable<LighthouseDto>>> HandleAsync()
     {
